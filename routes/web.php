@@ -17,3 +17,5 @@ Route::get('/', function () {
      return view('main');
 });
 
+
+Route::resource('/task', 'TaskController');
